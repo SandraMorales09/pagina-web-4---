@@ -1,0 +1,763 @@
+body {
+    background: linear-gradient(to right, black, rgb(0, 0, 0));
+}
+
+.image {
+    background-image: utl("images/logogato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.image {
+    align-self: flex-start;
+}
+
+.image {
+    width: 120;
+    height: 120px;
+    text-align: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contein {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contein-0 {
+    min-height: 80px;
+    background: #FF4500;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff8dc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    font-size: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: relative;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ffffff;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+
+/*este id  es el contenido de pagina inicio */
+
+.cont-0 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #808000;
+    justify-content: center; 
+}
+
+.cont-0 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    text-transform: 600;
+    text-shadow: 2px 5px #a9a9a9;
+}
+
+.contein-1 {
+	background-image: linear-gradient(100deg, #000000, #00000020),
+		url('img/banner.jpg');
+	height: 60rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.contein-1 {
+	max-width: 90rem;
+	margin: 0 auto;
+	padding: 25rem 0;
+}
+
+.contein-1 p {
+	color: var(--primary-color);
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	font-weight: 500;
+}
+
+.contein-1 h2 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.contein-1 a {
+	margin-top: 2rem;
+	text-decoration: none;
+	color: #fff;
+	background-color: var(--primary-color);
+	display: inline-block;
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	border-radius: 3rem;
+}
+
+/*este id es el contenedor de la 1 parte*/
+
+.contein-1 {
+    
+    display: flex;
+    padding: 25px;
+    color: #ffff;
+    justify-content: center; 
+}
+
+/*este id es un mini titulo que esta abajo de la imagen*/
+.contein-1 h4 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 125;
+	line-height: 1.2;
+}
+
+
+   /*Este ID es la 1 imagen y descripccion del local*/
+
+ .loca-0 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       }
+
+       .descript-0 {
+             width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+  .loca-1 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       }
+
+       .descript-1 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+   /*centrado ID el 2 contenedor */
+
+   .contein-2 {
+    
+    display: flex;
+    padding: 25px;
+    color: #ffff;
+    justify-content: center; 
+}
+    
+   /*Este ID es la 2 parrafo imagen y descripccion del local*/   
+      
+      .loca-2 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       }
+
+   /*este id es un mini titulo que esta abajo de la imagen*/
+
+     .contein-2 h4 {
+	      color: #fff;
+      	font-size: 3.5rem;
+	      font-weight: 125;
+	      line-height: 1.2;
+      }
+
+/*este id es descripcion*/
+       .descript-2 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+       .loca-3 {
+            width: 380;
+            height: 380px;
+            padding: 15px;
+            margin-top: 45px;
+       }
+ 
+       .descript-3 {
+            width: 250;
+            height: 250px;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+       .loca-4 {
+            width: 280;
+            height: 280px;
+            padding: 15px;
+            margin-top: 45px;
+       }
+
+       .descript-4 {
+            width: 250;
+            height: 250px;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+       .loca-5 {
+            width: 280;
+            height: 280px;
+            padding: 15px;
+            margin-top: 45px;
+       }
+
+     .descript-5 {
+            width: 250;
+            height: 250px;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+      }
+
+      /* id informacion footer*/
+
+.footer {
+background-color: var(--primary-color);
+}
+
+.footer {
+padding: 100px 0;
+background-color: #8B4513;
+}
+
+.container-footer {
+display: flex;
+flex-direction: column;
+gap: 4rem;
+padding: 3rem;
+}
+
+.menu-footer {
+display: grid;
+grid-template-columns: repeat(3, 1fr) 30rem;
+gap: 3rem;
+justify-items: center;
+}
+
+.title-footer {
+font-weight: 600;
+font-size: 1.6rem;
+text-transform: uppercase;
+}
+
+.contact-info,
+.information,
+.my-account,
+.newsletter {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.contact-info ul,
+.information ul,
+.my-account ul {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.contact-info ul li,
+.information ul li,
+.my-account ul li {
+list-style: none;
+color: #fff;
+font-size: 1.4rem;
+font-weight: 300;
+}
+
+.information ul li a,
+.my-account ul li a {
+text-decoration: none;
+color: #fff;
+font-weight: 300;
+}
+
+.information ul li a:hover,
+.my-account ul li a:hover {
+color: var(--dark-color);
+}
+
+/*id 2 footer*/
+
+@media (max-width: 768px) {
+html {
+font-size: 55%;
+}
+
+.hero {
+padding: 2rem;
+}
+
+.customer-support {
+display: none;
+}
+
+.content-shopping-cart {
+display: none;
+}
+
+.navbar {
+padding: 1rem 2rem;
+}
+
+.navbar .fa-bars {
+display: block;
+color: #fff;
+font-size: 3rem;
+}
+
+.menu {
+display: none;
+}
+
+.content-banner {
+max-width: 50rem;
+margin: 0 auto;
+padding: 25rem 0;
+}
+
+.container-features {
+grid-template-columns: repeat(2, 1fr);
+padding: 3rem 2rem;
+}
+
+.card-feature {
+padding: 2rem;
+}
+
+.heading-1 {
+font-size: 2.4rem;
+}
+
+.card-category {
+height: 12rem;
+}
+
+.card-category p {
+font-size: 2rem;
+text-align: center;
+line-height: 1;
+}
+
+.card-category span {
+font-size: 1.4rem;
+}
+
+.container-options {
+align-items: center;
+}
+
+.container-options span {
+text-align: center;
+padding: 1rem 2rem;
+}
+
+.container-products {
+grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+}
+
+.gallery {
+grid-template-rows: repeat(2, 15rem);
+}
+
+.container-blogs {
+overflow: hidden;
+grid-template-columns: 1fr 1fr;
+
+height: 52rem;
+}
+
+.menu-footer {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.copyright {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+}
+}
+
+/* id 3 footer*/
+
+
+@media (max-width: 468px) {
+html {
+font-size: 42.5%;
+}
+
+.content-banner {
+max-width: 50rem;
+padding: 22rem 0;
+}
+
+.heading-1 {
+font-size: 2.8rem;
+}
+
+.card-feature {
+flex-direction: column;
+border-radius: 2rem;
+}
+
+.feature-content {
+align-items: center;
+}
+
+.feature-content p {
+font-size: 1.4rem;
+text-align: center;
+}
+
+.feature-content span {
+font-size: 1.6rem;
+text-align: center;
+}
+
+.container-options span {
+font-size: 1.8rem;
+padding: 1rem 1.5rem;
+font-weight: 500;
+}
+
+.container-products {
+grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+gap: 1rem;
+}
+
+.container-img .discount {
+font-size: 2rem;
+}
+
+.content-card-product h3 {
+font-size: 2.2rem;
+}
+
+.gallery {
+grid-template-rows: repeat(2, 20rem);
+}
+
+.blogs {
+padding: 2rem;
+}
+
+.container-blogs {
+grid-template-columns: 1fr;
+height: 75rem;
+}
+
+.content-blog h3 {
+font-size: 2.4rem;
+}
+
+.content-blog span {
+font-size: 1.8rem;
+}
+
+.content-blog p {
+font-size: 2.2rem;
+}
+
+.btn-read-more{
+font-size: 1.8rem;
+}
+
+.contact-info ul,
+.information ul,
+.my-account ul{
+display: none;
+}
+
+.contact-info {
+align-items: center;
+}
+
+.menu-footer{
+grid-template-columns: 1fr;
+}
+
+.content p{
+font-size: 1.6rem;
+}
+}
+
+
+/*este ID es seccion de productos*/
+
+
+
+.cont-1 h4 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+.cont-1 p {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+.cont-2 p {
+	color: var(--primary-color);
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	font-weight: 200;
+}
+
+/* este 2 ID linea de los productos*/
+.cont-2 h4 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+.cont-2 p {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+/* este 3 ID linea de los productos*/
+.cont-3 h4 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+.cont-3 p {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+/* este 4 ID linea de los productos*/
+.cont-4 h4 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+.cont-4 p {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+/* este 5 ID linea de los productos*/
+.cont-5 h4 {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+.cont-5 p {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+
+ /*centrado ID el 2 contenedor */
+
+   .conteiner-1 {
+    
+    display: flex;
+    padding: 25px;
+    color: #ffff;
+    justify-content: center; 
+}
+    
+
+   /*Este ID es la 2 parrafo imagen y descripccion del local*/   
+      
+      .loca-0 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       }
+
+   /*este id es un mini titulo que esta abajo de la imagen*/
+
+     .conteiner-1 h4 {
+	      color: #fff;
+      	font-size: 3.5rem;
+	      font-weight: 125;
+	      line-height: 1.2;
+      }
+
+/*este id es descripcion*/
+       .descrip-5 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+/*este id es descripcion*/
+       .descrip-6 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+        /*Este ID es la 2 parrafo imagen y descripccion del local*/   
+      
+      .loca-1 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       }
+
+
+
+   /*este id es un mini titulo que esta abajo de la imagen*/
+
+     .conteiner-2 h4 {
+	      color: #fff;
+      	font-size: 3.5rem;
+	      font-weight: 125;
+	      line-height: 1.2;
+      }
+
+/*este id es descripcion*/
+       .descrip-7 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+      /*Este ID es la 2 parrafo imagen y descripccion del local*/   
+      
+      .loca-2 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       }  
+
+        /*Este ID es la 2 parrafo imagen y descripccion del local*/   
+      
+      .loca-3 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       } 
+
+       /*Este ID es la 2 parrafo imagen y descripccion del local*/   
+      
+      .loca-4 {
+            width: 350;
+            height: 350px;
+            padding: 25px;
+            margin-top: 45px;
+       } 
+         
+/*este id es descripcion*/
+       .descrip-8 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
+
+       /*este id es descripcion*/
+       .descrip-9 {
+            width: 250;
+            height: 250;
+            display: flex;
+            padding: 15px;
+            color: #fff;
+            justify-content: center;
+       }
